@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'YouSheBiaoTiYuan';
+  src: url('/fonts/YouSheBiaoTiYuan.otf') format('opentype');
+  font-display: swap;
+}
+
+:root {
+  --heading-font: 'YouSheBiaoTiYuan', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --body-font: 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --body-color: #103049;
+  --muted-color: rgba(16, 48, 73, 0.7);
+  --bg-color: #e9f3ff;
+  font-family: var(--body-font);
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: var(--body-color);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg-color);
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font: inherit;
+}
+
+#app {
+  min-height: 100vh;
+}
